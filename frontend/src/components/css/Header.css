@@ -1,0 +1,70 @@
+.top-header {
+  width: 100%;
+  background-color: #fff;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+}
+.logo h4 {
+  margin: 5px;
+  margin-right: 50px;
+}
+.logo img {
+  height: 60px;
+  width: 2vw;
+}
+.top-header input {
+  width: 90vh;
+  height: 5vh;
+  border: 1px solid rgb(93, 92, 92);
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 50px;
+}
+.top-header h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.head-nav {
+  display: flex;
+  margin-right: 20px;
+  gap: 10px;
+}
+.head-btn {
+  display: flex;
+  margin-right: 60px;
+  gap: 10px;
+}
+.btn {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    rgb(16, 137, 211) 0%,
+    rgb(18, 177, 209) 100%
+  );
+  color: white;
+  padding-block: 15px;
+  /* margin: 20px auto; */
+
+  border-radius: 20px;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+}
